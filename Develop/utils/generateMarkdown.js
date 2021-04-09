@@ -20,15 +20,28 @@ function generateMarkdown(data) {
   ## Description: 
   ${data.description}
   ## Table of Contents
-    * [Installation](#installation) 
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
+  * [Installation](#installation) 
+  * [Usage](#usage)
+  * [Contributers](#contributers)
+  * [License](#license)
+  * [Tests](#tests)
+  * [Questions](#questions)
   ## Installation
   Run the following code in the command line to run dependencies:
   ${data.installationInstruction}
+  ## Usage:
+  ${data.usageInformation}
+  ## Contributors:
+  ${data.contributors}
   ## License:
-  
+  Licensed under the ${data.license}
+  ## Contributers:
+  ${data.contributors}
+  ## Tests:
+  Run the following command to run tests:
+  ${data.tests}
+  ## Questions:
+  If you have any questions, please feel free to contact me at ${data.email}. For more of my work, visit [${data.github}](https://github.com/${data.github}).
 `;
 }
 

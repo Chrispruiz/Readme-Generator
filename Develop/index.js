@@ -63,13 +63,13 @@
           };
           const question7 = {
             type: 'input',
-            name: 'contributionGuidelines',
-            message: 'Enter contributions:'
+            name: 'contributors',
+            message: 'Enter contributors:'
           };
           const question8 = {
             type: 'input',
-            name: 'testInstructions',
-            message: 'Enter instructions for tests:'
+            name: 'tests',
+            message: 'Enter command for tests:'
           };
           const question9 = {
             type: 'list',
