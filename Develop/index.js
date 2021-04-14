@@ -77,7 +77,7 @@
             message: 'Choose a license for your application:',
             choices: ['MIT_License', 'GNU_GPLv3', 'Apache_License_2.0', 'None']
           };   
-
+          
 
 // TODO: Create a function to write README file
 inquirer
@@ -98,3 +98,4 @@ function init() {}
 
 // Function call to initialize app
 init();
+
