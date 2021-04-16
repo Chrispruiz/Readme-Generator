@@ -89,7 +89,7 @@ inquirer
     fs.writeFile(filename, generateMarkdown(data), function(err) {
         if (err) throw err;
       
-        console.log('README complete! Check out README.me to see the output!');
+        console.log('README complete! Check out ' + data.title + '.md' + ' to see the output!');
       });
 })
 
